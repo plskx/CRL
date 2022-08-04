@@ -1,6 +1,6 @@
 # Conquering Responsive Layouts
 
-## Why?
+### Why?
 
 - I want to improve my css skills.
 
