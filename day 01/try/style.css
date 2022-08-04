@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.parent {
+  background-color: #3dd1d1;
+  padding: 50px;
+
+  margin: 0 auto;
+  width: 80%;
+}
+
+.child {
+  background-color: #1a78cf;
+
+  width: 50%;
+  height: 250px;
+}
