@@ -17,9 +17,10 @@ body {
 }
 
 .container {
-  margin: 0 10rem;
   padding: 10rem 0;
-  width: 700px;
+  padding-left: 10%;
+  width: 800px;
+  max-width: 100%;
 }
 
 .container h1 {
