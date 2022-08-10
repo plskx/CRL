@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.hero {
+  padding: 100px 0;
+  background-color: #23424a;
+  color: #f4f4f4;
+}
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  /* border: 1px solid pink; */
+}
+
+.hero p {
+  margin-bottom: 3em;
+}
+
+.hero__text {
+  width: 60%;
+  /* border: 1px solid aqua; */
+}
+
+.btn {
+  display: inline-block;
+
+  padding: 0.75rem 2rem;
+  border-radius: 100px;
+  background-color: #38cfd9;
+
+  color: #23424a;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn:hover,
+.btn:focus {
+  opacity: 0.75;
+}
+
+.white {
+  padding: 50px 0;
+}
+
+.row {
+  display: flex;
+  gap: 30px;
+  text-align: center;
+}
+
+.row h1 {
+  color: #87629a;
+}
+
+.col {
+  width: 100%;
+}
+
+/* this is the orig solution. when gap isnt supported yet */
+/* .col + .col {
+  margin-left: 30px;
+} */
+
+.blue {
+  background-color: #136c72;
+  color: #f4f4f4;
+  padding: 50px 0;
+}
+
+.row2 {
+  display: flex;
+  gap: 30px;
+  text-align: center;
+}
