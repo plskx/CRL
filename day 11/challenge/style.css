@@ -71,13 +71,16 @@ h1 {
 
 header {
   background: #136c72;
-  padding: 0.5em 0;
+  padding: 1em 0;
 }
 
 .nav__list {
   margin: 0;
   padding: 0;
   list-style: none;
+
+  display: flex;
+  gap: 1.5rem;
 }
 
 .nav__link {
