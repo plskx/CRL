@@ -3,7 +3,3 @@
 ### Content:
 
 - Navigation Challenge | My Solution
-
-### Resource:
-
-- 
